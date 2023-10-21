@@ -20,6 +20,19 @@ const connect = function () {
   conn.on("connect", () => {
     conn.write("Name: TAJ");
   })
+
+  // conn.on("connect", () => {
+  //   conn.write("Move: up");
+  //   setTimeout(() => {conn.write("Move: up");},50);
+  //   setTimeout(() => {conn.write("Move: up");},50);
+  //   setInterval(() => {conn.write("Move: up");},50);
+  //   conn.write("Move: left");
+  //   conn.write("Move: left");
+  //   conn.write("Move: down");
+  //   conn.write("Move: down");
+  //   conn.write("Move: right");
+  // })
+
   return conn;
 };
 

@@ -1,12 +1,10 @@
 const IP = "172.24.239.29";
 const PORT = "50541";
 
-const MOVE_KEYS = {
-  w: "Move: up",
-  a: "Move: left",
-  s: "Move: down",
-  d: "Move: right"
-};
+const UPKEY = "Move: up";
+const LEFTKEY = "Move: left";
+const DOWNKEY = "Move: down";
+const RIGHTKEY = "Move: right";
 
 const msgKeyMappings = {
   ",": "Catch me if you can!",
@@ -16,6 +14,9 @@ const msgKeyMappings = {
 module.exports = {
   IP,
   PORT,
-  MOVE_KEYS,
+  UPKEY,
+  LEFTKEY,
+  DOWNKEY,
+  RIGHTKEY,
   msgKeyMappings
 };

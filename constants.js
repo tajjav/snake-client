@@ -6,12 +6,13 @@ const MOVE_KEYS = {
   a: "Move: left",
   s: "Move: down",
   d: "Move: right"
-}
+};
 
 const msgKeyMappings = {
-  ",":"Catch me if you can!",
-  ".":"Your boss is here!"
-}
+  ",": "Catch me if you can!",
+  ".": "Your boss is here!"
+};
+
 module.exports = {
   IP,
   PORT,

@@ -20,5 +20,5 @@ Before you can run this client, you will need to be running the server side whic
 ## Controls Info
 
 - `WASD` keys for up, left, down, right.
-- use , and . keys to send cheerful messages.
+- use `,` and `.` keys to send cheerful messages.
 - `Ctrl + c ` to exit.
